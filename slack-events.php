@@ -11,7 +11,7 @@ $dotenv->load();
 
 $logDir       = __DIR__ . '/logs';
 $rawInputPath = "$logDir/last_slack_raw.json";
-$eventDebug   = __DIR__ . '/event_debug.json';
+$eventDebug   = "$logDir/event_debug.json";
 $smtpLogPath  = "$logDir/smtp_log.json";
 $mapPath      = "$logDir/email_map.json";
 $processedPath= "$logDir/processed_ids.json";
