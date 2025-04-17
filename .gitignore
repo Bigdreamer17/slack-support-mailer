@@ -1,0 +1,7 @@
+logs/
+*.json
+
+.env
+
+/vendor
+
